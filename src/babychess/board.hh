@@ -81,7 +81,7 @@ public:
 			return preferences().flags & bs_turned;
 		}
 
-	void Set_Last_Move(int square, int square); 
+	void Set_Last_Move(int, int);
 	void Clear_Last_Move()
 		{
 			Clear_Selection(); 
