@@ -15,7 +15,7 @@ Description: Chess user interface
 Package: osso-chess-ui-dbg
 Architecture: any
 Section: devel
-Depends: osso-chess-ui (= ${Source-Version})
+Depends: osso-chess-ui (= ${source:Version})
 Description: osso-chess-ui debug package
  Debug symbols for osso-chess-ui.
 
