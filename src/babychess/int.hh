@@ -17,23 +17,7 @@
 
 //#include "int.config.hh"
 
-#ifdef INT_C99
-
 #include <stdint.h>
-
-#else /* non-C99 */
-
-/* Assume 32 bit. 
- */
-
-typedef unsigned char uint8_t;
-typedef int           int_fast16_t;
-typedef int           int_fast32_t;
-typedef long long     int_fast64_t, intmax_t;
-// typedef unsigned int  uint_fast8_t;
-typedef unsigned long long    uint_fast64_t;
-
-#endif /* non-C99 */
 
 #ifdef INT_HAVE_JD
 # define INTMAX_SCANF        "jd"
