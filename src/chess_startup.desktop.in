@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=@VERSION@
+Type=Application
+Name=game_ap_chess_name
+X-Text-Domain=osso-games
+Exec=@prefix@/bin/chessui.launch
+Icon=tasklaunch_chess
+Categories=Games
+Comment=game_ap_chess_name_thumb
+MimeType=application/game
+X-Icon-path=@prefix@/share/pixmaps/
+X-Window-Icon=tn-bookmarks-link
+X-HildonDesk-ShowInToolbars=true
+X-Osso-Service=com.nokia.osso_chess.startup
+X-Osso-Type=application/x-executable
+StartupWMClass=chess_startup

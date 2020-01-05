@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"
+           xmlns:osso="http://nokia.com/osso/mime-categories">
+   <mime-type type="application/game">
+     <comment>Chess</comment>
+     <glob pattern="*.game"/>
+   </mime-type>
+</mime-info>

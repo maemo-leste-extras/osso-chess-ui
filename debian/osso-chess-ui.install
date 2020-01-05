@@ -1,0 +1,7 @@
+usr/bin
+usr/lib/osso-chess-ui
+usr/share/applications
+usr/share/mime/packages
+usr/share/dbus-1
+usr/share/osso-chess-ui
+etc/osso-backup

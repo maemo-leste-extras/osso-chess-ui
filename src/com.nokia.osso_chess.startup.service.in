@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.nokia.osso_chess.startup
+Exec=@prefix@/bin/chess_startup /usr/share/osso-chess-ui/osso_chess.conf

@@ -1,0 +1,13 @@
+# Chess config file
+
+[Startup Entry]
+Name=osso_chess
+Version=@VERSION@
+Title=Chess
+TitleId=game_ap_chess_name
+GettextPackage=osso-games
+PluginPath=@prefix@/lib/osso-chess-ui/chess_plugin.so
+Image=@datadir@/pixmaps/osso-games-startup-chess.png 
+ServiceName=com.nokia.osso_chess
+PathName=/com/nokia/osso_chess
+InterfaceName=com.nokia.osso_chess

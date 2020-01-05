@@ -1,0 +1,59 @@
+BabyChess 15
+============
+
+This is BabyChess, a chess application.  This release contains the
+following programs:
+
+baby_gui_start
+
+	The "control center".  Other programs can be started from
+	here. 
+
+baby_gui_game_archive
+
+	The PGN (portable game notation) file editor.
+
+baby_gui_game
+
+	The chess game editor.  Can be used to play against the
+        built-in chess engine. 
+
+baby_gui_position
+
+	The chess position editor. 
+
+baby_gui_ics
+
+	The ICS (internet chess server) client.
+
+baby_chess_evaluator
+
+	The chess evaluator. (a non-interactive text program used by
+	the other programs)
+
+baby_xboard_engine
+
+	The XBoard engine. 
+
+
+Requirements
+------------
+
+- GTK+ 2.0 and Gnome 2.0 (or newer)
+- LibPNG
+- A 16 bit or more graphic display
+- GCC
+- GNU Sed
+
+
+Operating systems
+-----------------
+
+This version of BabyChess was tested on the following operating systems: 
+
+- Mandrake 9.0
+- Solaris with GCC and GNU Sed
+
+
+Mailing List:  <baby-devel@nongnu.org>
+WWW:           <http://user.cs.tu-berlin.de/~kunegis/babychess/> 
