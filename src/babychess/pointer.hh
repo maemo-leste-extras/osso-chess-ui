@@ -100,7 +100,7 @@ inline int Pointer_Size()
 
 	pointer_check= false;
 
-	return (int)real_end - (int)type_begin;
+	return (long)real_end - (long)type_begin;
 }
 
 /* Common definition. 
