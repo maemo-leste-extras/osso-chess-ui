@@ -1,6 +1,6 @@
 SUBDIRS = babychess ui plugin
 INCLUDES = $(GTK_CFLAGS) $(OSSO_CFLAGS) $(GCONF_CFLAGS) $(PNG_CFLAGS) \
-	   $(PANGO_CFLAGS) $(ESOUND_CFLAGS)
+	   $(PANGO_CFLAGS) $(ESOUND_CFLAGS) $(CANBERRA_CFLAGS)
 	   
 CC=g++
 
@@ -60,10 +60,11 @@ chessui_LDADD = \
 	$(filter-out $(UNWANTED), \
 	$(MAEMO_LAUNCHER_LDFLAGS) \
 	$(GTK_LIBS)   \
-       	$(OSSO_LIBS)  \
+	$(OSSO_LIBS)  \
 	$(GCONF_LIBS) \
 	$(PNG_LIBS)   \
 	$(PANGO_LIBS) \
+	$(CANBERRA_LIBS) \
 	$(ESOUND_LIBS) \
 	ui/libchessui.a \
 	babychess/libbabychess.a)
